@@ -26,12 +26,12 @@ config.overrides = [
       '@typescript-eslint/no-unused-vars': 1,
       'no-undef': 0,
       'react/jsx-no-undef': 0,
-      'react/no-unescaped-entities': 0,
+      'react/no-unescaped-entities': 0
     },
     settings: {
-      'mdx/code-blocks': false,
-    },
-  },
+      'mdx/code-blocks': false
+    }
+  }
 ];
 
 module.exports = config;
